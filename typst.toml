@@ -1,0 +1,7 @@
+[package]
+name = "uow"
+version = "1.0.0"
+entrypoint = "uow.typ"
+authors = ["Bowen Luo"]
+license = "MIT"
+description = "For UoW assignment."
