@@ -14,7 +14,7 @@ usage:
     cyber: "COMPX511: Cyber Security Operations",
     parallel: "COMPX553: Extremely Parallel Programming",
 )
-#let init(course:"", task:"", name:"Bowen Luo", id:"1656808", content) = {
+#let init(course:"", task:"", name:"Bowen Luo", id:"1656808", anony:false, content) = {
 
     show title: set align(center)
     show link: it => {
@@ -48,9 +48,9 @@ usage:
     set document(
         title: [#course_name.at(course, default:"Unknown Course") \ #task],
     )
-    let author() = {
+    let author() = if not anony {
         align(center)[#smallcaps(name) \ ID: #id]
-    }
+    } else { [\ ] }
 
     title()
     author()
