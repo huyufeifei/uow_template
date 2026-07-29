@@ -13,6 +13,10 @@ usage:
     tool: "COMPX575: Programming Tools and Techniques",
     cyber: "COMPX511: Cyber Security Operations",
     parallel: "COMPX553: Extremely Parallel Programming",
+    prepare: "CSMAX570: Preparing for Internship",
+    wearable: "COMPX551: Mobile and Wearable Computing",
+    open: "COMPX574: Open Source Software Project",
+    project: "COMPX576-26B (HAM) - Programming Project"
 )
 #let init(course:"", task:"", name:"Bowen Luo", id:"1656808", anony:false, content) = {
 
